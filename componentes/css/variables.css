@@ -84,3 +84,14 @@ h1, h2, h3, h4, ul {
     line-height: 35px;
     color: #343434;
 }
+.titulares-white h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 0px;
+    line-height: 35px;
+    color: white;
+}
+.titulares-white p {
+    font-size: 25px;
+    color: white;
+}
