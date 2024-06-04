@@ -30,6 +30,7 @@
 }
 .card-simple:hover{
     background-color: #0E104D;
+    padding: 40px 0 40px 0;
     padding: 80px 20px;
     transition: 0.5s;
     border-right: 0px;
@@ -46,4 +47,7 @@
 
 @media (max-width: 968px) {
     .flex-direction-column-mobile {flex-direction: column;}
+    .content-section {
+        padding: 24px;
+    }
 }
