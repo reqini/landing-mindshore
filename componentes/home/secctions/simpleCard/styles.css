@@ -1,0 +1,49 @@
+
+.content-section {
+    background-image: url(../../../assets/home/column-repeat.jpg);
+    background-color: #f2f2f2;
+    background-size: 50px;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+.center-article {
+    width: 100%;
+    max-width: 1480px;
+    padding: 60px 0 60px 0;
+}
+.card-simple {
+    width: 100%;
+    border-radius: 16px;
+    height: auto;
+    padding: 60px 20px;
+    margin: 20px;
+    transition: 0.5s;
+    border-right: 5px solid #FE3F9F;
+}
+.card-simple img {
+    height: 80px;
+}
+.card-simple p {
+    color: white;
+    font-size: 25px;
+}
+.card-simple:hover{
+    background-color: #0E104D;
+    padding: 80px 20px;
+    transition: 0.5s;
+    border-right: 0px;
+    border-top: 5px solid #FE3F9F;
+    border-bottom: 5px solid #FE3F9F;
+}
+.titulares h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 35px;
+    color: #343434;
+}
+
+@media (max-width: 968px) {
+    .flex-direction-column-mobile {flex-direction: column;}
+}

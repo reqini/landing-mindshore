@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #f2f2f2;">
+    <header id="header">
+        <div class="pa20 center flex justify-betwwen align-center">
+            <img class="logo" src="../assets/logo.svg" alt="Mindshore">
+            <nav id="nav-menu">
+                <ul>
+                    <a href="" alt="Mindshore Inicio" title="Mindshore Inicio"><li>Inicio</li></a>
+                    <a href="" alt="Mindshore Servicios" title="Mindshore Servicios"><li>Servicios</li></a>
+                    <a href="" alt="Mindshore Nosotros" title="Mindshore Nosotros"><li>Nosotros</li></a>
+                    <a href="" alt="Mindshore Únete a MindShore" title="Mindshore Únete a MindShore"><li>Únete a MindShore</li></a>
+                    <a href="" alt="Mindshore Contacto" title="Mindshore Contacto"><li>Contacto</li></a>
+                </ul>
+            </nav>
+            <div class="menu-icon" id="menu-icon">
+                &#9776;
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <div class="content">
+        <!-- Simular contenido largo para hacer scroll -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet libero eu neque facilisis.</p>
+        <p>... (más contenido aquí) ...</p>
+        <p>Fin del contenido.</p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('fixed');
+            } else {
+                header.classList.remove('fixed');
+            }
+        });
+
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
