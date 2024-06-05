@@ -48,9 +48,9 @@ ol, ul, menu {
     background: linear-gradient(90deg, rgba(254,120,36,1) 0%, rgba(254,63,159,1) 100%);
 }
 .shadow-card {
-    box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.48);
-    -webkit-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.48);
-    -moz-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.48);
+    box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.2);
 }
 .secondary-bg {
     background-color: #343434;
