@@ -38,6 +38,9 @@ ol, ul, menu {
 .pa12 { padding: 12px; }
 .pa16 { padding: 16px; }
 .pa20 { padding: 20px; }
+/* Margin */
+.mt20 { margin-top: 20px; }
+.mb20 { margin-bottom: 20px; }
 
 .gradient-lineal {
     background: rgb(235,72,93);
@@ -61,13 +64,19 @@ ol, ul, menu {
     max-width: 1280px;
     position: relative;
 }
+.center-md {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+}
 
 /* Generales */
 html, body {
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
 }
-h1, h2, h3, h4, ul {
+h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
