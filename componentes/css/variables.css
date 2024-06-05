@@ -58,7 +58,8 @@ ol, ul, menu {
 .center {
     margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1280px;
+    position: relative;
 }
 
 /* Generales */
@@ -80,7 +81,7 @@ h1, h2, h3, h4, ul {
 .titulares h2 {
     font-size: 35px;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     line-height: 35px;
     color: #343434;
 }
@@ -94,4 +95,8 @@ h1, h2, h3, h4, ul {
 .titulares-white p {
     font-size: 25px;
     color: white;
+}
+.flex-direction-column-mobile {flex-direction: row;}
+@media (max-width: 768px) {
+    .flex-direction-column-mobile {flex-direction: column;}
 }

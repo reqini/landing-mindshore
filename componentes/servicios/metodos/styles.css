@@ -1,0 +1,53 @@
+
+.section-service-cards {
+    background-color: white;
+    padding: 60px 24px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+}
+.metodos {
+    width: 100%;
+    margin-top: 40px;
+}
+.metodos article {
+    background-color: #F2F2F2;
+    width: calc(100% / 2 - 20px);
+    height: 100%;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #D9D9D9;
+}
+.metodos article:last-child {
+    border-radius: 0 20px 20px 0;
+}
+.metodos article .info {
+    padding: 24px;
+    box-sizing: border-box;
+}
+.metodos article .info h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.metodos article .info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.metodos article .img {
+    position: relative;
+    overflow: hidden;
+    max-height: 350px;
+}
+.metodos article .img img {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .metodos article {
+        width: calc(100% / 1);
+        border-radius: 20px 20px 0 0;
+    }
+    .metodos article:last-child {
+        border-radius: 0 0 20px 20px;
+    }
+}

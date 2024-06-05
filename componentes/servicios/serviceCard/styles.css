@@ -5,6 +5,15 @@
     width: calc(100% - 28px);
     box-sizing: border-box;
 }
+.card-content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+.card.expanded .card-content {
+    height: auto;
+}
 .service-card {
     border-radius: 50px 12px 12px 12px;
     background-color: white;
@@ -22,13 +31,13 @@
     box-sizing: border-box;
 }
 .service-card .content h2 {
-    font-size: 28px;
+    font-size: 20px;
     color: #FE7824;
     text-transform: uppercase;
 }
 .service-card .content p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
 }
 .service-card .content ul li {
     list-style: circle;
@@ -56,5 +65,5 @@
 }
 
 @media (max-width: 968px) {
-    .flex-direction-column-mobile {flex-direction: column;}
+    /* agregar */
 }
