@@ -1,0 +1,125 @@
+
+.section-service-cards {
+    background-color: #F2F2F2;
+    padding: 60px 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contacto {
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 35px 16px 16px 16px;
+}
+article.image {
+    width: 40%;
+    margin-right: 24px;
+}
+article.image img {
+    overflow: hidden;
+    border-radius: 25px 0 25px 0;
+}
+article.form {
+    width: 60%;
+}
+article.form p {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+article.form button {
+    height: 48px;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(235,72,93);
+    background: linear-gradient(90deg, rgba(235,72,93,1) 22%, rgba(254,120,36,1) 100%);
+}
+.textfield-container {
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+.textfield-container input {
+    width: 100%;
+    padding: 16px 12px 8px;
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 2px solid silver;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.textfield-container textarea {
+    width: 100%;
+    padding: 16px 12px 8px;
+    height: 148px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 2px solid silver;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.textfield-container input:focus, .textfield-container textarea:focus {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.textfield-container label {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    color: #666666;
+    font-size: 14px;
+    transition: 0.3s ease all;
+    pointer-events: none;
+}
+.textfield-container input:focus ~ label,
+.textfield-container input:not(:placeholder-shown) ~ label,
+.textfield-container textarea:focus ~ label,
+.textfield-container textarea:not(:placeholder-shown) ~ label {
+    top: 6px;
+    font-size: 12px;
+    color: #333333;
+}
+
+@media (max-width: 980px) {
+    article.image {
+        width: 50%;
+    }
+    article.form {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    article.image {
+        width: 100%;
+    }
+    article.form {
+        width: 100%;
+    }
+    article.image {
+        height: 200px;
+        overflow: hidden;
+        border-radius: 25px 0 25px 0;
+    }
+    article.image img {
+        margin-top: -150px;
+    }
+}
+@media (max-width: 680px) {
+    article.image img {
+        margin-top: -100px;
+    }
+}
+@media (max-width: 550px) {
+    article.image img {
+        margin-top: -40px;
+    }
+}
