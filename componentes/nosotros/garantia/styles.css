@@ -1,0 +1,43 @@
+
+.section-garantia-cards {
+    padding: 24px;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+}
+.garantia{
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.iso {
+    margin-right: 16px;
+}
+.garantia img {
+    height: 140px;
+    margin: 0 8px;
+}
+.garantia p {
+    margin: 0;
+}
+.garantia .color-text {
+    color: #FE3F9F;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.garantia .title {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.garantia .title b {
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .iso {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}

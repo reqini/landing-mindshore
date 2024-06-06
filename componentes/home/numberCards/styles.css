@@ -15,6 +15,7 @@
     width: calc(100% / 3);
     border-radius: 16px;
     height: auto;
+    min-height: 160px;
     padding: 40px 30px;
     margin: 16px;
     transition: 0.5s;
