@@ -87,6 +87,13 @@ h1, h2, h3, h4, h5, h6, ul {
     width: 100px;
     height: 6px;
 }
+.titulares-sm h2 {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 0px;
+    line-height: 35px;
+    color: white;
+}
 .titulares h2 {
     font-size: 35px;
     margin: 0;
@@ -108,4 +115,7 @@ h1, h2, h3, h4, h5, h6, ul {
 .flex-direction-column-mobile {flex-direction: row;}
 @media (max-width: 768px) {
     .flex-direction-column-mobile {flex-direction: column;}
+    .titulares-sm h2 {
+        text-align: center;
+    }
 }
