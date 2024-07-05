@@ -16,6 +16,7 @@
     width: 100%;
     border-radius: 16px;
     height: auto;
+    min-height: 300px;
     padding: 60px 20px;
     margin: 20px 20px;
     transition: 0.5s;
@@ -23,19 +24,28 @@
 }
 .card-simple img {
     height: 80px;
+    transition: .5s;
 }
 .card-simple p {
     color: white;
     font-size: 25px;
+    display: none;
 }
 .card-simple:hover{
     background-color: #0E104D;
-    padding: 80px 20px;
     margin: 0px 20px;
     transition: 0.5s;
     border-right: 0px;
+    cursor: pointer;
     border-top: 5px solid #FE3F9F;
     border-bottom: 5px solid #FE3F9F;
+}
+.card-simple:hover > img {
+    height: 100px;
+    transition: .5s;
+}
+.card-simple:hover > p {
+    display: block;
 }
 .titulares h2 {
     font-size: 35px;
