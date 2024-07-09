@@ -1,0 +1,43 @@
+footer {
+    background-color: #0E104D;
+}
+nav {
+    padding: 24px;
+    width: 100%;
+}
+.nav-menu a {
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-menu a li{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.nav-menu a li:hover {
+    font-weight: 600;
+    color: #FFB636;
+    text-decoration: underline;
+}
+.inferior-info {
+    border-top: 0.5px solid white;
+    padding: 24px;
+    justify-content: space-between;
+}
+.inferior-info p {
+    color: white;
+}
+@media (max-width: 968px) { 
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul a li {
+        padding: 20px 0;
+    }
+    .inferior-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
