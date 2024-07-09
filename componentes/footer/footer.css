@@ -28,6 +28,12 @@ nav {
 .inferior-info p {
     color: white;
 }
+.linkedin p{
+    margin: 0;
+}
+.linkedin img {
+    margin-left: 10px;
+}
 @media (max-width: 968px) { 
     nav ul {
         flex-direction: column;
