@@ -47,11 +47,11 @@ nav ul a li:hover {
     height: 48px;
 }
 
-.menu-icon {
+.menu-icon, .menu-close {
     font-size: 45px;
     color: #F35C47;
     cursor: pointer;
-    display: none; /* Ocultar por defecto */
+    display: none!important; /* Ocultar por defecto */
 }
 
 @media (max-width: 968px) {
@@ -59,7 +59,14 @@ nav ul a li:hover {
         display: none; /* Ocultar la navegación por defecto en móviles */
     }
     .menu-icon {
-        display: block; /* Mostrar el icono de menú en móviles */
+        display: block!important; /* Mostrar el icono de menú en móviles */
+    }
+    .menu-close {
+        font-size: 30px!important;
+        display: block!important; /* Mostrar el icono de menú en móviles */
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
     #nav-menu.active {
         display: flex;
